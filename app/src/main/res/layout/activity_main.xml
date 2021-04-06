@@ -5,16 +5,21 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:textAlignment="center"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="@color/white">
 
     <EditText
         android:id="@+id/editFirstName"
+        style="@android:style/Widget.DeviceDefault.AutoCompleteTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="116dp"
         android:ems="10"
         android:hint="First Name"
         android:inputType="textPersonName"
+        android:textColor="#000000"
+        android:textColorHighlight="#000000"
+        android:textColorHint="#000000"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
@@ -28,6 +33,9 @@
         android:ems="10"
         android:hint="Last Name"
         android:inputType="textPersonName"
+        android:textColorHint="#000000"
+        android:textColor="#000000"
+        android:textColorHighlight="#000000"
         app:layout_constraintEnd_toEndOf="@+id/editFirstName"
         app:layout_constraintStart_toStartOf="@+id/editFirstName"
         app:layout_constraintTop_toBottomOf="@+id/editFirstName" />
@@ -40,6 +48,9 @@
         android:ems="10"
         android:hint="Email"
         android:inputType="textEmailAddress"
+        android:textColorHint="#000000"
+        android:textColor="#000000"
+        android:textColorHighlight="#000000"
         app:layout_constraintEnd_toEndOf="@+id/editLastName"
         app:layout_constraintStart_toStartOf="@+id/editLastName"
         app:layout_constraintTop_toBottomOf="@+id/editLastName" />

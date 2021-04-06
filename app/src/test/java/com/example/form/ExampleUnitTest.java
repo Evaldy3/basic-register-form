@@ -1,4 +1,4 @@
-package com.example.myapplication;
+package com.example.form;
 
 import org.junit.Test;
 
