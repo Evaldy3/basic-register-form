@@ -1,3 +1,3 @@
 # basic-register-form
 
-form.gif
+<img src='form.gif' width='' alt='Video Walkthrough' />
